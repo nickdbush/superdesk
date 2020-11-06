@@ -101,6 +101,12 @@ module.exports = function(grunt) {
             {id: 'subject', name: 'Subject', field: 'subject', list: 'subjectcodes'},
         ],
 
+        authoring: {
+            preview: {
+                hideContentLabels: true,
+            },	
+        },
+
         search: {
             'slugline': 0,
             'headline': 1,
